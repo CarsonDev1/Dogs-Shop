@@ -1,0 +1,21 @@
+.Home-Page {
+	width: 80%;
+	background-image: url(./images/dogbg.png);
+	scroll-behavior: smooth;
+	background-size: cover;
+}
+.Home-Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	margin-top: 2rem;
+	color: #1e272e;
+}
+.goShopping {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+}

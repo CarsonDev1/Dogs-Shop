@@ -1,0 +1,13 @@
+.Home-Page {
+	width: 50%;
+	background-image: url(./images/dogbg.png);
+	scroll-behavior: smooth;
+	background-size: cover;
+	border-radius: 50%;
+	padding: 20px;
+}
+.Home-Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

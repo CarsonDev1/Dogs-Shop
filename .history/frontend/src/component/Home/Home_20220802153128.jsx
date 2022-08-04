@@ -1,0 +1,9 @@
+const Home = () => {
+	return (
+		<>
+			<header>🐶 WELCOME TO MY PET SHOP 🐶</header>
+		</>
+	);
+};
+
+export default Home;

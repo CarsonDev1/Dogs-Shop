@@ -1,0 +1,28 @@
+.dogs-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 4rem;
+}
+.dogs {
+	background-color: #d8e2dc;
+	padding: 1rem;
+	border-radius: 14px;
+	width: 350px;
+	height: 450px;
+	margin-bottom: 1.5rem;
+	display: grid;
+	align-items: center;
+	grid-template-areas:
+		"img info"
+		"img info"
+		"desc desc"
+		"price prce"
+		"btn btn";
+}
+.dogs-info {
+	grid-area: info;
+}

@@ -1,0 +1,12 @@
+.dogs-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 4rem;
+}
+.dogs {
+	background-color: #d8e2dc;
+}

@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+.navbar > * {
+	margin-left: 2rem;
+	color: #1e272e;
+	text-decoration: none;
+	transition: 200ms ease-in-out;
+}
+.navbar > *:hover {
+	color: #e76f51;
+}
+.h-6.w-6 {
+	width: 20px;
+	text-align: center;
+	align-items: center;
+}

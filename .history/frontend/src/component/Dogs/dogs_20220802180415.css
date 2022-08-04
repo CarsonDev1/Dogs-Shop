@@ -1,0 +1,24 @@
+.dogs-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 4rem;
+}
+.dogs {
+	width: 30%;
+	height: 30%;
+	margin: 1rem;
+	border: 1px solid #e76f51;
+	border-radius: 0.5rem;
+	background-color: #fae1dd;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: 200ms ease-in-out;
+}

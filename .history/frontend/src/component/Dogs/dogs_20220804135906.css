@@ -1,0 +1,43 @@
+.dogs-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 20px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.dogs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dogs-info {
+}
+.dogs-img-container {
+}
+.dogs-desc {
+}
+.dogs-price {
+}
+.dogs-btn {
+}
+.dogs-btn-disabled {
+}
+.dogs-btn:hover {
+	background-color: #0a9396;
+	color: white;
+}
+
+.dog-img {
+	width: 100%;
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+}
